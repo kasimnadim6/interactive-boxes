@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.1rem;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.hidden {
+  opacity: 0;
+}
+.selected {
+  background-color: #0bcc59;
+}
